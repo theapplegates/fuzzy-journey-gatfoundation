@@ -27,6 +27,7 @@ const AboutPage = ({ data }) => {
         <h1>{frontmatter.title}</h1>
         <article dangerouslySetInnerHTML={{ __html: html }} />
       </div>
+      <div id="autocomplete"></div>
     </Layout>
   )
 }

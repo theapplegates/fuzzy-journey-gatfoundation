@@ -31,6 +31,7 @@ const Layout = ({ children, className, props }) => {
   return (
     <div className="primary-container">
       <Header>
+      <div id="autocomplete"></div>
         <Logo title={siteTitle} />
         <div sx={layoutStyle.nav}>
           <div sx={{ display: ["flex", "flex", "flex", "none"] }}>
