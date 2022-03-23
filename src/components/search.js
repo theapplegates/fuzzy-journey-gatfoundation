@@ -38,7 +38,7 @@ export default class Search extends Component {
               placeholder="Search"
               value={this.state.query}
               onChange={this.search}
-              className="search-input"
+              className="search-input"              
             />
             <ul sx={searchStyle.searchResults}>
               {this.state.results.map(page => (
